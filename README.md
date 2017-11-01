@@ -128,7 +128,8 @@ The supplied `fetch` function will be called by the paginator the first time tha
 The `VioletDataTable` component also takes an array of headers.
 
 ```javascript
-import React, { PropTypes, Component } from 'react'
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
 import { VioletDataTable, VioletPaginator } from 'violet-paginator'
 
@@ -313,7 +314,8 @@ export default paginate(Next)
 And here's a link that can sort our list in either direction by a given field name:
 
 ```javascript
-import React, { PropTypes } from 'react'
+import React from 'react'
+import PropTypes from 'prop-types'
 import FontAwesome from 'react-fontawesome'
 import paginate from './PaginationWrapper'
 
