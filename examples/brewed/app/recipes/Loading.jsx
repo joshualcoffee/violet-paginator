@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 import DropModal from 'boron/DropModal'
 
 export default class Loading extends Component {
@@ -32,4 +33,3 @@ export default class Loading extends Component {
     )
   }
 }
-

@@ -133,7 +133,8 @@ in the `createPaginator` call to retrieve the results at the appropriate times. 
 The `VioletDataTable` component also takes an array of headers.
 
 ```javascript
-import React, { PropTypes } from 'react'
+import React from 'react'
+import PropTypes from 'prop-types'
 import { VioletDataTable, VioletPaginator } from 'violet-paginator'
 
 export default function RecipeList() {
@@ -313,7 +314,8 @@ export default flip(Next)
 And here's a link that can sort our list in either direction by a given field name:
 
 ```javascript
-import React, { PropTypes } from 'react'
+import React from 'react'
+import PropTypes from 'prop-types'
 import FontAwesome from 'react-fontawesome'
 import { sort as decorate } from './decorators'
 
